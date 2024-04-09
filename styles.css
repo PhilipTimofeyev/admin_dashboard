@@ -1,0 +1,38 @@
+
+.container {
+	display: grid;
+	grid-template-columns: 1fr 3fr;
+}
+
+.sidebar {
+	background: lightblue;
+/*	max-width: 200px;*/
+/*	display: grid;*/
+	grid-column: 1 / 2;
+}
+
+.header {
+	background: lightcoral;
+}
+
+.nav {
+	background: lightgoldenrodyellow;
+	grid-column: 2 / 3;
+}
+
+.main {
+	background: lightsalmon;
+	display: grid;
+	grid-template-columns: 2fr 1fr;
+	grid-column: 2 / 3;
+}
+
+.cards {
+	background: lightseagreen;
+	grid-column: 1 / 2;
+}
+
+.right_col {
+	background: lightslategray;
+	grid-column: 2 / 3;
+}
