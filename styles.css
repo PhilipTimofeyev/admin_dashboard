@@ -6,8 +6,10 @@
 
 .container {
 	display: grid;
-	grid-template-columns: 1fr 3fr;
+	grid-template-columns: .75fr 3fr;
+/*	grid-template-rows: 1fr 1fr;*/
 	background: lightseagreen;
+	height: 100vh;
 }
 
 .sidebar .logo {
@@ -26,20 +28,29 @@
 /*	max-width: 200px;*/
 /*	display: grid;*/
 	grid-column: 1 / 2;
+	grid-row: 1 / 3;
+	height: 100vh;
 }
 
 .menu {
 	font-size: 26px;
 	color: white;
+	text-align: center;
 }
 
 .header {
-	background: lightcoral;
-/*	display: flex;
-	flex-direction: column;*/
+	background: white;
 	display: grid;
-	grid-template-rows: 1fr 1fr;
 	grid-column: 2 / 3;
+	align-items: center;
+	max-height: 20vh;
+	padding: 20px 60px;
+}
+
+.search {
+	font-size: 30px;
+	border-radius: 18px;
+	background-color: lightgray;
 }
 
 .header_top ul, .header_bottom ul {
