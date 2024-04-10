@@ -92,7 +92,7 @@
 	grid-template-columns: .2fr .2fr .6fr;
 	align-items: center;
 	justify-items: right;
-	gap: 30px;
+	gap: 40px;
 }
 
 .header_bottom{
@@ -150,6 +150,10 @@
   just: space-around;
   display: flex;
   flex-direction: column;
+}
+
+.card p{
+	margin-top: 10px;
 }
 
 .card_icons {
@@ -219,7 +223,6 @@ ul {
 
 #at_tag{
 	color: black;
-/*	font-size: 30px;*/
 } 
 
 .header_bottom button {
