@@ -197,9 +197,30 @@ ul {
 	margin-top: auto;
 	padding-bottom: 20px;
 }
+
 .trending {
 	margin-top: 15px;
 }
+
+.trending li {
+	display: flex;
+	gap: 15px;
+}
+
+.trending div {
+	display: flex;
+	flex-direction: column;
+	gap: 3px;
+}
+
+.trending img {
+	height: 50px;
+}
+
+#at_tag{
+	color: black;
+/*	font-size: 30px;*/
+} 
 
 .header_bottom button {
 	background-color: #1992D4;
