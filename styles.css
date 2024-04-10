@@ -123,27 +123,45 @@
 	background: #e2e8f0;
 	display: grid;
 	grid-template-columns: 3fr 1fr;
-	grid-template-rows: .3fr 3fr;
+	grid-template-rows: .2fr 3fr;
 	grid-column: 2 / 3;
-	padding-top: 30px;
+	padding: 30px 20px;
 }
 
 .article {
   background-color: #e2e8f0;
   grid-column: 1 / 2;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
   gap: 25px;
-  padding: 50px;
+/*  padding: 0px 50px;*/
 }
 
 .article .card {
   background-color: #FFFFFF;
   color: black;
-  text-align: center;
-  height: 200px;
+  text-align: left;
+	padding: 30px;
   border-radius: 12px;
   border-left: .5rem solid #f0b429;
+  just: space-around;
+  display: flex;
+  flex-direction: column;
+}
+
+.card_icons {
+	display: flex;
+	align-self: flex-end;
+	margin-top: auto;
+	gap: 30px;
+}
+
+.card_icons img {
+	height: 30px;
+}
+
+.card p {
+	color: #636363;
 }
 
 .r_col {
@@ -163,6 +181,10 @@
 .r_col ul {
 	display: grid;
 	gap: 40px;
+}
+
+#right {
+	float: bottom;
 }
 
 ul {
