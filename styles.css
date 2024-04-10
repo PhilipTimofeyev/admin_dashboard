@@ -8,7 +8,6 @@
 	display: grid;
 	grid-template-columns: .75fr 3fr;
 	grid-template-rows: 1fr 4fr;
-	background: lightseagreen;
 	height: 100vh;
 }
 
@@ -16,7 +15,7 @@
 	background: #1992d4;
 	grid-column: 1 / 2;
 	grid-row: 1 / 3;
-	height: 100vh;
+/*	height: 100vh;*/
 	padding-left: 2vw;
 }
 
@@ -26,7 +25,7 @@
 }
 
 .logo {
-	font-size: 34px;
+	font-size: 2.2rem;
 }
 
 #logo_img {
@@ -36,7 +35,7 @@
 }
 
 .menu {
-	font-size: 26px;
+	font-size: 1.6rem;
 	color: white;
 	font-weight: 500;
 }
@@ -67,7 +66,7 @@
 	display: grid;
 	grid-template-columns: 1fr 1fr;
 	gap: 21vw;
-	padding: 3vh 0vh;
+	padding: 3vh 0vh 2vh;
 }
 
 .header_top ul {
@@ -91,7 +90,7 @@
 	height: 40px;
 	width: 120px;
 	color: white;
-	font-size: 20px;
+	font-size: 1.2rem;
 	font-weight: 500;
 }
 
@@ -117,12 +116,13 @@
 }
 
 .search {
-	font-size: 30px;
+	font-size: 1.7rem;
 	border-radius: 18px;
 	background-color: #e2e8f0;
 	border: solid #e2e8f0;
 	width: 35vw;
 	margin-left: 0px;
+	text-indent:20px;
 }
 
 
@@ -178,7 +178,9 @@
 	height: 30px;
 }
 
-.main p {
+.article p,
+.announcements p,
+.attag{
 	color: #636363;
 }
 
@@ -231,7 +233,3 @@ ul {
 .trending img {
 	height: 50px;
 }
-
-#at_tag{
-	color: black;
-} 
