@@ -59,7 +59,8 @@
 	grid-column: 2 / 3;
 	grid-row: 1 / 2;
 	padding: 0px 60px 20px;
-/*	align-content: center;*/
+	box-shadow: 5px 1px 5px grey;
+	position: relative;
 }
 
 .header img {
